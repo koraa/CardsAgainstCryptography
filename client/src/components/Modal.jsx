@@ -10,7 +10,7 @@ const Modal = (props) => {
   return (
     <div className='modal-overlay'>
       <div className='modal-window'>
-        <p className='modal-message'>{props.message}</p>
+      <div className='modal-message' dangerouslySetInnerHTML={{__html: props.message}}></div>
         {props.buttons && <div className='modal-buttons'>{renderButtons()}</div>}
       </div>
     </div>

@@ -1,10 +1,15 @@
 const express = require('express');
 const logger = require('morgan');
 const path = require('path');
+const fs = require('fs');
+const httpsCredentials = {
+  key: fs.readFileSync('/home/mccurley/certs/privkey4.pem', 'utf8'),
+  cert: fs.readFileSync('/home/mccurley/certs/fullchain4.pem', 'utf8')
+};
 
 const app = express();
 
-const server = require('http').createServer(app);
+const server = require('https').createServer(httpsCredentials, app);
 
 // keep the heroku app awake!!
 // setInterval(function() {
@@ -14,14 +19,15 @@ const server = require('http').createServer(app);
 app.use(logger('dev'));
 app.use(express.static(`${__dirname}/public`));
 
-const port = process.env.PORT || 3001;
+const port = process.env.PORT || 3005;
 
 server.listen(port, function() {
   console.log(`Horrible people listen to ${port}`);
 });
 
 const io = require('socket.io')(server);
-const cards = require('./cards.js');
+//const cards = require('./cards.js');
+const cards = JSON.parse(fs.readFileSync('cards.json', 'utf8'));
 
 const gameRooms = {};
 
@@ -274,8 +280,16 @@ class Player {
 
 io.on('connection', (socket) => {
   console.log(`${socket.id} connected`);
-
-  socket.emit('connected');
+  let rooms = [];
+  for (const roomCode in gameRooms) {
+    let room = gameRooms[roomCode];
+    let players = [];
+    for (const p in room.playerList.players) {
+      players.push(room.playerList.players[p].name);
+    }
+    rooms.push({'code': roomCode, 'stage': room.stage, 'players': players});
+  }
+  socket.emit('connected', rooms);
 
   // 'create' generates a new room code and adds the player to it
   socket.on('create', (data) => {
@@ -476,6 +490,7 @@ io.on('connection', (socket) => {
       if(el.selection[0] === data.czarChoice[0]) {
         winner.id = el.id;
         winner.name = el.name;
+        winner.cards = data.czarChoice;
         if(players[el.id]) {
           players[el.id].winningCards.push({black: data.blackCard, white: data.czarChoice})
         }
@@ -494,7 +509,7 @@ io.on('connection', (socket) => {
 
     // updates players on who won
     io.sockets.in(roomCode).emit('update players', { players: playerList.prepareToSend() });
-    io.sockets.in(roomCode).emit('a winner is', { winner, winningCards });
+    io.sockets.in(roomCode).emit('a winner is', { winner, winningCards, playerSelections });
 
     // after card czar chooses, bring pending players into the game
     for (let id in pending) {

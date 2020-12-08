@@ -26,7 +26,7 @@ class Header extends Component {
 
     return (
       <header>
-        <h3>Cards Against</h3>
+        <h3>Cards Against Cryptography</h3>
         <p className='player-header-name' style={{fontSize: `${this.state.nameFontSize}em`}}>{name}</p>
         <p className={`menu-button ${showMenu ? 'selected' : ''}`} onClick={toggleMenu}>
           <i className='fas fa-bars'></i>

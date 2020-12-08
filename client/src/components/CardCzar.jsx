@@ -88,10 +88,10 @@ class CardCzar extends Component {
           </div>
         }
         {!this.props.gameStarted &&
-          <button onClick={this.props.startGame}>START</button>
+          <button className="blue-button" onClick={this.props.startGame}>START</button>
         }
         {playerSelections &&
-          <button onClick={() => this.props.submitCzarSelection(currentSelection)}>OMG THIS ONE</button>
+          <button className="blue-button" onClick={() => this.props.submitCzarSelection(currentSelection)}>OMG THIS ONE</button>
         }
       </div>
     )

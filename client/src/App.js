@@ -62,6 +62,7 @@ class App extends Component {
 
     socket.on('connected', (data) => {
       console.log('connected');
+      console.dir(data);
     })
 
     socket.on('joined', (data) => {
@@ -91,12 +92,12 @@ class App extends Component {
 
     socket.on('bad roomcode', () => {
       console.log('bad roomcode');
-      this.setMessage('bad roomcode, asshole!', 'popup', 2000);
+      this.setMessage('bad roomcode, unfortunately', 'popup', 2000);
     });
 
     socket.on('room full', () => {
       console.log('fuck off, room full');
-      this.setMessage('this room is full! go play with yourself', 'popup', 2000);
+      this.setMessage('this room is full! Sorry', 'popup', 2000);
     });
 
     socket.on('game in progress', (data) => {
@@ -235,7 +236,8 @@ class App extends Component {
     });
 
     socket.on('a winner is', (data) => {
-      console.log(`teh winnar is ${data.winner.name}!!`);
+      console.log(`the winnar is ${data.winner.name}!!`);
+      console.dir(data);
       this.setState({
         winningCards: data.winningCards,
         showModal: true,
@@ -249,12 +251,17 @@ class App extends Component {
 
       this.setMessage('waiting for you to click OK, champ')
   
+      let list = '<ul style="text-align:left;">';
+      data.playerSelections.forEach((p) => {
+        list += '<li>(' + p.name + ') ' + p.selection[0] + '</li>';
+      });
+      list += '</ul>';
       if (data.winner.id === socket.id) {
-        this.setMessage(`You are ${this.state.cardCzarName}'s favorite.`, 'modal')
+        this.setMessage(`${this.state.cardCzarName}'s said that you won.` + list, 'modal')
       } else if (this.state.cardCzar) {
-        this.setMessage(`${data.winner.name} is your favorite`, 'modal')
+        this.setMessage(`${data.winner.name} won that round`, 'modal')
       } else {
-        this.setMessage(`${this.state.cardCzarName} hates you. Specifically you.`, 'modal')
+        this.setMessage(`${this.state.cardCzarName} chose ` + data.winner.name + "\'s answer." + list, 'modal');
       }
     })
 

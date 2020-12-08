@@ -1,0 +1,517 @@
+{
+  "blackCards": [
+    {
+      "text": "HotCRP reminds me of _.",
+      "pick": 1
+    },
+    {
+      "text": "A crypto conference is never complete without _.",
+      "pick": 1
+    },
+    {
+      "text": "A recent laboratory study shows that undergrads have 50% less sex after being exposed to _.",
+      "pick": 1
+    },
+    {
+      "text": "A romantic, candlelit dinner would be incomplete without _.",
+      "pick": 1
+    },
+    {
+      "text": "Both Microsoft and Apple have concerns with _.",
+      "pick": 1
+    },
+    {
+      "text": "Bruce Schneier's new book has a chapter on _.",
+      "pick": 1
+    },
+    {
+      "text": "Despite his work at Bletchley Park, Alan Turing is little know for his work on _.",
+      "pick": 1
+    },
+    {
+      "text": "Did you hear that _ is the new hot topic?",
+      "pick": 1
+    },
+    {
+      "text": "Due to the Covid crisis, I have rekindled my enthusiasm for _.",
+      "pick": 1
+    },
+    {
+      "text": "During sex, I like to think about _.",
+      "pick": 1
+    },
+    {
+      "text": "Having really bad gas throughout November led to _.",
+      "pick": 1
+    },
+    {
+      "text": "I always include _ in my reviewer feedback.",
+      "pick": 1
+    },
+    {
+      "text": "I can't believe I got away with _.",
+      "pick": 1
+    },
+    {
+      "text": "I can't believe my grant application for _ was denied!",
+      "pick": 1
+    },
+    {
+      "text": "I can't concentrate without _.",
+      "pick": 1
+    },
+    {
+      "text": "I deserve to be an IACR fellow for my groundbreaking contributions to _.",
+      "pick": 1
+    },
+    {
+      "text": "I don't encrypt my files, I keep them hidden in _.",
+      "pick": 1
+    },
+    {
+      "text": "I drink to forget _.",
+      "pick": 1
+    },
+    {
+      "text": "I felt sick to my stomach at PKC because of _.",
+      "pick": 1
+    },
+    {
+      "text": "I find that _ relieves pre-submission stress.",
+      "pick": 1
+    },
+    {
+      "text": "I get by with a little help from _.",
+      "pick": 1
+    },
+    {
+      "text": "I got 99 problems but _ ain't one.",
+      "pick": 1
+    },
+    {
+      "text": "I hope no one finds out about _.",
+      "pick": 1
+    },
+    {
+      "text": "I just got out of an incomprehensible talk on _.",
+      "pick": 1
+    },
+    {
+      "text": "I just hope the reviewers don't notice _.",
+      "pick": 1
+    },
+    {
+      "text": "I only got through my PhD because of a long-winded explanation of _.",
+      "pick": 1
+    },
+    {
+      "text": "I swear I didn't go to Financial Crypto because of the location, I went for _.",
+      "pick": 1
+    },
+    {
+      "text": "I think I will skip the session on _ this year.",
+      "pick": 1
+    },
+    {
+      "text": "I was going to include Katz and Lindell as recommended reading, but it doesn't contain anything on _.",
+      "pick": 1
+    },
+    {
+      "text": "I was surprised to see anyone awake at the end of my presentation on _.",
+      "pick": 1
+    },
+    {
+      "text": "I woke up drenched in sweat from a nightmare about _.",
+      "pick": 1
+    },
+    {
+      "text": "I woke up filled with shame about _.",
+      "pick": 1
+    },
+    {
+      "text": "I'll eat my hat if anyone ever breaks _.",
+      "pick": 1
+    },
+    {
+      "text": "I'm hoping to avoid 2/3 of the program committee, because my paper is on _.",
+      "pick": 1
+    },
+    {
+      "text": "I'm sorry, Professor, but I couldn't complete my homework because of _.",
+      "pick": 1
+    },
+    {
+      "text": "I've had it with these blockchain bros! \"Crypto\" means _.",
+      "pick": 1
+    },
+    {
+      "text": "It took 72,000 instances, but I finally cracked _.",
+      "pick": 1
+    },
+    {
+      "text": "It turns out that my company's password policy requires _.",
+      "pick": 1
+    },
+    {
+      "text": "My academic CV says I'm an expert on _.",
+      "pick": 1
+    },
+    {
+      "text": "I wish my job provided more opportunity for _.",
+      "pick": 1
+    },
+    {
+      "text": "My last paper review reminded me of _.",
+      "pick": 1
+    },
+    {
+      "text": "My career started with _.",
+      "pick": 1
+    },
+    {
+      "text": "My favourite thing about online conferences is _.",
+      "pick": 1
+    },
+    {
+      "text": "My encryption scheme is extra secure because of _.",
+      "pick": 1
+    },
+    {
+      "text": "My first accepted paper was on provably secure _.",
+      "pick": 1
+    },
+    {
+      "text": "My latest paper on _ will help me get more citations than Mihir Bellare.",
+      "pick": 1
+    },
+    {
+      "text": "My student couldn't complete their homework due to _.",
+      "pick": 1
+    },
+    {
+      "text": "Oh no! I just saw Koblitz and Menezes taking another look at _.",
+      "pick": 1
+    },
+    {
+      "text": "One regret I have from my PhD is _.",
+      "pick": 1
+    },
+    {
+      "text": "Putting _ in my application helped me immensely.",
+      "pick": 1
+    },
+    {
+      "text": "RWC was already full when I tried to register because I was too busy _.",
+      "pick": 1
+    },
+    {
+      "text": "Remembering _, then immediately vomiting.",
+      "pick": 1
+    },
+    {
+      "text": "Self-isolation is fantastic for _.",
+      "pick": 1
+    },
+    {
+      "text": "TSA guidelines now prohibit _ on airplanes.",
+      "pick": 1
+    },
+    {
+      "text": "Talk dirty to me, baby. Tell me about _.",
+      "pick": 1
+    },
+    {
+      "text": "The Bletchley Park Museum has just opened an interactive exhibit on _.",
+      "pick": 1
+    },
+    {
+      "text": "The Israeli government stores its data with _.",
+      "pick": 1
+    },
+    {
+      "text": "The best thing about having Crypto 2020 online was _.",
+      "pick": 1
+    },
+    {
+      "text": "Machine learning reminds me of _.",
+      "pick": 1
+    },
+    {
+      "text": "The next big thing will almost certainly be _.",
+      "pick": 1
+    },
+    {
+      "text": "The talk that had the most influence on my personal life was _.",
+      "pick": 1
+    },
+    {
+      "text": "The thing I love most about staying in the UCSB dorms during Crypto is _.",
+      "pick": 1
+    },
+    {
+      "text": "The way things are going, the best paper at Crypto 2048 will probably be about _.",
+      "pick": 1
+    },
+    {
+      "text": "There is nothing quite like _, alone in the office at night.",
+      "pick": 1
+    },
+    {
+      "text": "The eprint web server reminds me of _.",
+      "pick": 1
+    },
+    {
+      "text": "WTF! My paper on _ just got rejected from the ePrint server.",
+      "pick": 1
+    },
+    {
+      "text": "What ended my last relationship?",
+      "pick": 0
+    },
+    {
+      "text": "What gets better with age?",
+      "pick": 0
+    },
+    {
+      "text": "What is the best way to wind down at the end of a hard day?",
+      "pick": 0
+    },
+    {
+      "text": "What never fails to liven up the Eurocrypt banquet?",
+      "pick": 0
+    },
+    {
+      "text": "What will always get you laid?",
+      "pick": 0
+    },
+    {
+      "text": "What's a cryptographer's best friend?",
+      "pick": 0
+    },
+    {
+      "text": "What's my secret power?",
+      "pick": 0
+    },
+    {
+      "text": "When I am President of the United States, I will create the Department of _.",
+      "pick": 1
+    },
+    {
+      "text": "When all this is over, I'm not looking forward to _.",
+      "pick": 1
+    },
+    {
+      "text": "When my crypto patents turn me into a billionaire, I will erect a 50-foot statue to commemorate _.",
+      "pick": 1
+    },
+    {
+      "text": "Why can't I sleep at night?",
+      "pick": 0
+    },
+    {
+      "text": "Yo' momma so dumb she encrypts her files with _.",
+      "pick": 1
+    },
+    {
+      "text": "_ kept me up all night.",
+      "pick": 1
+    },
+    {
+      "text": "_ was the last thing I expected to find in Edward Snowden's leaked documents.",
+      "pick": 1
+    }
+  ],
+  "whiteCards": [
+    "100% talks, <br> 0% human interaction.",
+    "16-bit AES.",
+    "17 slides for a 3-minute rump session talk.",
+    "2 to 4 kilograms of top quality amphetamines.",
+    "2-sentence Eurocrypt reviews.",
+    "387 contact tracing papers submitted to Eurocrypt 2021.",
+    "4mm reasonable margins.",
+    "A 25-year old policy on sexual harassment.",
+    "Convincing people that privacy preservation is real.",
+    "A Facebook friend request from a cryptographer I~actually despise.",
+    "A career-limiting card game.",
+    "A dancing cryptographer.",
+    "A genuine attempt to configure IPsec.",
+    "A hand wavy argument.",
+    "A long-term nonce.",
+    "A non-fabricated use of pairings.",
+    "A painfully slow Tor surfing session.",
+    "A popup Skype notification from \"lovemachine69\" during my keynote talk.",
+    "A proof that appears in the \"full version\".",
+    "A shepherd that won't budge.",
+    "A tight security reduction to the problem of fending off a sexually voracious goat.",
+    "A violent and bloody PhD defence.",
+    "Aaron Aaronson's insistence on alphabetical author ordering.",
+    "Academic integrity.",
+    "Accidentally sexting my co-supervisor.",
+    "Actually being \"sorry for the late reply\".",
+    "Actually efficient indistinguishability obfuscation.",
+    "Adleman-Rivest-Shamir encryption (the ARSE algorithm).",
+    "An IACR board meeting.",
+    "An SSL vulnerability with a silly name.",
+    "An \"anonymous\" reviewer insisting I cite 6 papers by the same author.",
+    "An inappropriate workplace romance.",
+    "An insecure VPN straight to the Kremlin.",
+    "An overfull hbox.",
+    "An overlooked patent.",
+    "Arguing savagely against contact tracing so no one finds out that I don't get invited to parties.",
+    "Arriving 13 minutes late to a 15 minute talk and having the gall to ask a question.",
+    "Asking for 2 room keys during check-in, knowing full well I'm not getting laid.",
+    "Bart Preneel's <br> private key.",
+    "Beefing up my Proposition to a Theorem because I'm that awesome.",
+    "Being forced to attend social events because I'm the visitor's official host.",
+    "Being the only smartly dressed person in the room.",
+    "Best rejected paper award.",
+    "Bragging about getting held up at Border Control for saying I'm a cryptographer.",
+    "Brexit.",
+    "Checking my Google Scholar profile daily.",
+    "Chocolate-covered shrimp.",
+    "Citing personal communication.",
+    "Conferences with 5 submissions at 11:59pm.",
+    "Crippling student debt.",
+    "Crypto wars.",
+    "Day drinking.",
+    "Deadline day flatulence.",
+    "Deliberately hiding inefficiencies inside the big O.",
+    "Deliberately not referencing a superior paper.",
+    "Desperately trying to plug my crypto research into a grant application on pandemic prevention.",
+    "Diffie but definitely not Hellman.",
+    "Doing Facebook maths puzzles to show I am better than those idiot 97%.",
+    "Double ROT-13.",
+    "Drinking alone.",
+    "Dropping the word Blockchain into my research proposal as many times as possible.",
+    "Dual&#95;EC&#95;DRBG.",
+    "Encrypted database security definitions.",
+    "Explaining what my job is at a family reunion.",
+    "Falling asleep in a 5-person meeting.",
+    "Feeling flattered because a conference spam email addressed me as Professor.",
+    "Fighting over LaTeX syntax.",
+    "Filing a patent application for modular multiplication... in 2017.",
+    "Flirting with people at the conference registration desk.",
+    "Forgetting my VGA adapter.",
+    "Frantically taking notes during every talk.",
+    "GDPR requirements.",
+    "Getting a fourth cookie during a coffee break because I have no one to talk to.",
+    "Getting rejected, but then taking immediate solace in the fact that the selection of papers was a difficult and challenging task.",
+    "Getting stuck at the French-speaking banquet table.",
+    "Getting tenure, then chilling the f--- right out!",
+    "Getting turned on by a proof.",
+    "Going straight to journal.",
+    "Government-mandated backdoors.",
+    "HTTPS everywhere!",
+    "Hands-on supervision.",
+    "Having time to catch up on my reading, <br> then not doing it.",
+    "Having to wear pants.",
+    "Having to write a polite rebuttal to the reviewer who clearly didn't read past page 2.",
+    "Hiding my conflict of interest.",
+    "Hillary Clinton's BlackBerry.",
+    "Home-baked, snake oil crypto.",
+    "Ignoring reviewer comments and resubmitting immediately.",
+    "Ignoring the session chair flashing 5 minutes left because I've got 23 slides to go.",
+    "Including an XKCD comic in my slides because I'm so original.",
+    "Knapsack cryptosystems, revisited.",
+    "LNCS' 25-foot margins.",
+    "Making claims in the submission that you hope you can achieve before the rebuttal.",
+    "Mathematical brain fault.",
+    "My Silk Road purchase history.",
+    "My <em>h</em>-index.",
+    "My automated reply saying \"email responses will be delayed\", when I know damn well I'll be online with high-speed internet access 24/7.",
+    "My butt.",
+    "My crypto blog views getting into the double digits.",
+    "My dear friend the Program Chair overruling 3 borderline rejects on my paper.",
+    "My genitals.",
+    "My inappropriate supervisor.",
+    "My inflated sense of self-importance that warrants my PGP key.",
+    "My much more successful career as a singer after rocking the Crypto rump session.",
+    "My relationship status.",
+    "My second divorce.",
+    "My sex life.",
+    "My side job as an incompetent security consultant.",
+    "My successful career at a patent troll company.",
+    "My supervisor's morning breath.",
+    "Nigel Smart's new Hawaiian shirt.",
+    "Not being important enough to be asked to sign the public statement on contact tracing.",
+    "Not feeling guilty about falling asleep during the keynote.",
+    "Not having to wear pants.",
+    "Not needing to pretend to listen to the other speakers in my session.",
+    "Overselling it hard in the introduction.",
+    "Password1.",
+    "Picturing the FSE audience naked.",
+    "Politely starting an answer with \"That's a good question...\", when the question is actually idiotic.",
+    "Post-quantum RSA.",
+    "Preparing for two weeks to give a 15-minute presentation to a room of 7 people all on their laptops.",
+    "Pretending to care when my vegetarian coauthor complains about the lack of banquet options.",
+    "Pretending to understand.",
+    "Pubic key cryptography.",
+    "Publishing anyway.",
+    "Purchasing the Springer hardcopies I publish in because my mom is collecting them.",
+    "Putting an outdoors-y photo on my academic webpage to look well-rounded.",
+    "Quadruple XOR.",
+    "Quantum key distribution.",
+    "Quickly trying to peek at someone's badge as I shake their hand, but it's flipped backwards.",
+    "Reading the person in front's emails.",
+    "Relatives who ask me to help them install their printer on Windows.",
+    "Remembering when `working from home' meant a day off.",
+    "Rogaway's loose morals.",
+    "Satoshi Nakamoto.",
+    "Security through obscurity.",
+    "Sending an email at 11pm so people think I work hard.",
+    "Serious rump session speakers.",
+    "Sexual tension.",
+    "Skype dropping out every 10 to 15 seconds.",
+    "Social sciences.",
+    "Someone less senior than me signing off with \"Thanks in advance\".",
+    "Spending 3 Bitcoin on pizza in 2012.",
+    "Spending all of my Levchin prize money on cocaine.",
+    "Springer's editorial team.",
+    "Starting a conversation with \"When did you fly in?\", because I have nothing interesting to say.",
+    "Taking a group shower with my recent co-authors.",
+    "Telling anyone who'll listen quite how busy I am.",
+    "Thanking the anonymous reviewers for their \"useful\" comments.",
+    "That feeling when my article is sitting pretty at the top of the ePrint archive.",
+    "That one asshole who's always sleeping during my Eurocrypt talks.",
+    "The MIT Mafia.",
+    "The NSA's massive stack of amateur porn.",
+    "The North Korean Cryptographic Standard.",
+    "The awkward question the chair asks when nobody understood the talk.",
+    "The awkward silence of 8 people standing in a circle during the afternoon coffee break.",
+    "The great firewall of China.",
+    "The great paywall of IEEE.",
+    "The intoxicating aroma of 12 PhD students in one office.",
+    "The latest dance mix album by DJ~Bernstein.",
+    "The one person I don't want to get stuck next to on the conference excursion bus.",
+    "The one really hot person at CHES registration drinks.",
+    "The one suit I own for meetings with industry.",
+    "The person in the front row taking photos of every slide.",
+    "The secret flash drive hidden in my underwear.",
+    "The sound of 50 people on a Zoom call all trying to speak at once.",
+    "The student body.",
+    "The walking zombie corpse of Claude Shannon.",
+    "Thinking I'm so clever for using pictures of Alice (Cooper) and Bob (Marley).",
+    "Throwing a party for my next citation milestone.",
+    "Trying to make TCC friends at the bar in order to get the IACR 7-conference grand slam.",
+    "Turbulent bowel movements in the middle of my Asiacrypt presentation.",
+    "Turning up to one meeting and claiming co-authorship.",
+    "Tweeting about my paper acceptance.",
+    "Unbreakable military-grade encryption.",
+    "Undergrads.",
+    "Using Beamer because it's social suicide to use PowerPoint.",
+    "Using \"it clearly follows\" when the implied following is anything but clear.",
+    "Using \"we should talk about this offline\" because the question exposes holes in my paper.",
+    "Using indecipherable, non-standard notation to hide a dodgy proof.",
+    "Vital sugar beet auctions.",
+    "WalnutDSA.",
+    "Wearing a T-shirt with a Linux joke.",
+    "Wearing a conference t-shirt... in public.",
+    "When you realize that quantum computers have been 10 years away for 3 decades.",
+    "Wistfully looking out of the window of my overly-cramped PhD office.",
+    "Writing a reference for someone I can't remember meeting.",
+    "Yet another cryptographer falling into the blockchain startup abyss.",
+    "<span style='font-family: Courier, monospace;'>Ctrl+F</span>'ing to see how many times I'm cited and finding \"0 results\".",
+    "\"Working\" remotely.",
+    "<span style='font-family: \"Comic Sans MS\", \"Comic Sans\", cursive;'>A slide deck entirely in Comic Sans.</span>"
+  ]
+}

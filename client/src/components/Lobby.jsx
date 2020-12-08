@@ -17,7 +17,7 @@ const Lobby = (props) => {
         </div>
       </div>
       {props.message && <p>{props.message}</p>}
-      <button onClick={props.readyUp}>Ready</button>
+      <button className='blue-button' onClick={props.readyUp}>Ready</button>
     </div>
   )
 }

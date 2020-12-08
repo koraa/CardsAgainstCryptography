@@ -8,7 +8,7 @@
     "start": "node server.js",
     "dev": "concurrently \"nodemon server.js\" \"cd client && yarn start\"",
     "debugger": "DEBUG=*:* npm run dev",
-    "deploy": "cd client && yarn build && cp -a ./build/ ../public/"
+    "deploy": "rm -r public/static && cd client && yarn build && cp -r ./build/* ../public/"
   },
   "author": "Ryan Edwards",
   "license": "ISC",

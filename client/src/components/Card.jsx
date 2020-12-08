@@ -45,7 +45,7 @@ class Card extends Component {
     return (
       <div className={`${color}-card`} 
            id={hoverable ? `${color}-card-${index}` : ''} 
-           style={{zIndex: index, transform:`translateZ(${index}px)`, marginBottom: hoverable ? this.state.offset ? `-${155 - this.state.offset}px` : `-155px` : null}}
+           old_style={{zIndex: index, transform:`translateZ(${index}px)`, marginBottom: hoverable ? this.state.offset ? `-${155 - this.state.offset}px` : `-155px` : null}}
            onMouseEnter={hoverable ? this.handleHover : null} 
            onMouseLeave={hoverable ? this.handleHover : null}>
         {this.renderCard()}

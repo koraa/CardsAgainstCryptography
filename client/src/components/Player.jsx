@@ -65,7 +65,7 @@ class Player extends Component {
           {this.renderWhiteCards()}
         </div>
         {this.props.gameStarted && (Object.keys(this.props.cardSelection).length === this.props.blackCard.pick) && 
-          <button onClick={this.props.handleCardSelectionSubmit}>OK</button>
+          <button className='blue-button' onClick={this.props.handleCardSelectionSubmit}>OK</button>
         }
       </div>
     )
